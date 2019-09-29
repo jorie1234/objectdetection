@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+*.jpg
+*.mp4
+*.avi
+*.h5
+.vscode/
