@@ -14,6 +14,17 @@ conda update --all
 conda remove wrapt
 pip install tensorflow
 ```
+
+If you get an error during execution like 
+```
+ImportError: numpy.core._multiarray_umath failed to import
+```
+try the following:
+```
+pip install -U numpy
+```
+
+
 Download [YoloV3 Model](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5)
 
 ```
