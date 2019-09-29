@@ -4,10 +4,21 @@ Based on [imageAI](http://imageai.org/)
 
 Import conda environment with
 
-```conda env create -f environment.yml```
+```
+conda env create -f environment.yml
+```
 
+If you encounter any problems during install with wrapt try the following:
+```
+conda update --all
+conda remove wrapt
+pip install tensorflow
+```
 Download [YoloV3 Model](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5)
 
+```
+wget https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5
+```
 
 
 ## imageobjectdetection.py
